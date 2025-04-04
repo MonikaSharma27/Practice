@@ -59,13 +59,83 @@
 
 ///// search element
 
-// let arr = [1,2,4,7,8];
-// let index=undefined
+// let arr = [1,2,4,4,7,8];
+// let target = 4;
+// let index=[]
 // for(let i=0; i<arr.length; i++){
-//     if(arr[i]===4){
-//         index=i
+//     if(arr[i]===target){
+//         index.push(i)
 //     }
 // }console.log(index)
+
+
+//////merge element
+
+// let arr1 = [1,2,3,4,];
+// let arr2= [5,6,7];
+// let arr = []
+
+// for(let i=0; i<arr1.length; i++){
+//    arr[i]=arr1[i]
+// }for(let i=0; i<arr2.length; i++){
+//     arr[arr1.length+i]=arr2[i]
+// }
+// console.log(arr)
+
+
+// let arr1 = [1,4,8,9,10];
+// let arr2= [3,2,5,6];
+// let arr = [];
+
+// let i=0
+// let j=0;
+// let k=0;
+
+// while(i<arr1.length && j<arr2.length){
+//     if(arr1[i] < arr2[j]){
+//         arr[k] =arr1[i];
+//         i++
+//     }else{
+//         arr[k]=arr2[j];
+//         j++
+//     }
+//     k++
+// }
+// while(i<arr1.length){
+//     arr[k]=arr1[i];
+//     i++;
+//     k++;
+// }
+// console.log(arr)
+
+
+// let arr1 = [1,4,8,9,10];
+// let arr2 = [3,2,5,6,11,12];
+// let arr = [];
+
+// i=0;
+// j=0;
+// k=0;
+
+// while (i<arr1.length && j<arr2.length) {
+//    if(arr1[i]<arr2[j]){
+//     arr[k]=arr1[i]
+//     i++
+//    }else{
+//     arr[k]=arr2[j]
+//     j++
+//    }
+//    k++
+// }
+// while(j<arr2.length){
+//     arr[k]=arr2[j]
+//     j++
+//     k++
+// }
+// //arr=arr.reverse()
+// console.log(arr)
+
+
 
 
 
